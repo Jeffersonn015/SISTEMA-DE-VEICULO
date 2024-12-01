@@ -8,7 +8,7 @@ import java.sql.PreparedStatement;
 public class VeiculoDAO {
     private final String url = "jdbc:mysql://localhost:3306/sistema_de_veiculos"; // URL do banco
     private final String user = "root";  // Usuário do banco
-    private final String password = "@J3F1nH0";  // Senha do banco
+    private final String password = "";  // Senha do banco
 
     public Connection getConnection() throws SQLException {
         return DriverManager.getConnection(url, user, password);
